@@ -1,0 +1,11 @@
+.gradient-custom {
+    background: linear-gradient(to right, #d0c8c8, #ece5e5);
+}
+.card-login {
+    border-radius: 1rem;
+    background-color: #f8f9fa;
+    border: none;
+}
+.btn {
+    background-color: #d0c8c8;
+}

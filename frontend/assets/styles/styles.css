@@ -1,0 +1,152 @@
+body, .nav-link, .offcanvas-title {
+  font-family: 'Montserrat', sans-serif;
+}
+/*Estilos barra de navegación*/
+#logo{
+  border-radius: 55%;
+  margin-left: 18px;
+  margin-right: 11px;
+  width: 68px;
+}
+svg{
+  margin-right: 6px;
+}
+#instagram{
+  width: 50px;
+  margin-left: 35px;
+}
+.navbar {
+  height: 90px;
+}
+.navbar-brand {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  color: #333333;
+}
+/* Cambia el color del texto cuando el usuario pasa el cursor por encima */
+.navbar .nav-link:hover {
+  color: #d8e7ec;; /* Color al hacer hover */
+}
+.btn-close {
+  background-color: #54B4D3;
+  border-radius: 50%;
+  padding: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+.btn-close:hover {
+  transform: scale(1.1);
+}
+.offcanvas-header {
+  background-color: #333333; /* Fondo oscuro */
+  color: #ffffff;
+  border-bottom: 2px solid #54B4D3; /* Añadir un borde en el color principal */
+}
+/* transición suave */
+.offcanvas-start {
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in-out;
+}
+.offcanvas-start.show {
+  transform: translateX(0);
+}
+/*Estilos masthead*/
+.masthead {
+  height: 85vh;
+  min-height: 500px;
+  background-image: url('../Imagenes/ho2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 90px;
+}
+/*Estilos image showcases*/
+.showcase{
+    background: linear-gradient(to right, #aaa5a5, #dddbdb);
+  }
+  h2, .h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .showcase .showcase-text {
+    padding: 3rem;
+  }
+  .showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+  }
+  @media (min-width: 768px) {
+    .showcase .showcase-text {
+      padding: 7rem;
+    }
+}
+/*Estilos productos*/
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background-color: #e6dfdf;
+}
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+/*Estilos ubicacion*/
+.location {
+  padding: 6rem 0;
+  background-color: #e6dfdf;
+}
+.location .featured-text {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .location .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #619794;
+  }
+}
+.location .featured-text i {
+  font-size: 3.5rem;
+}
+.location .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .location .project-text {
+    padding: 5rem;
+  }
+}
+/*Estilos sobre mi*/
+.aboutme {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background: #e6dfdf;
+}
+.aboutme .aboutme-item {
+  max-width: 18rem;
+}
+.aboutme .aboutme-item img {
+  max-width: 11rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+/*Estilos contacto*/
+.contacto{
+  background: linear-gradient(to right, #aaa5a5, #dddbdb);
+}
+.bg-image {
+  background-image: url('../Imagenes/1563567237_1239541.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+footer{
+  font: bold 15px 'Courier New', Courier, monospace;
+}
+
+/*#189393*/

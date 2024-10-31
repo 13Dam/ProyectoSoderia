@@ -1,0 +1,56 @@
+body{
+    background-color: #e6dfdf;
+}
+/* Estilo para los botones de navegación */
+.nav-btn {
+    font-weight: bold;
+    background-color: #d0c8c8;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Cambios en el hover */
+.nav-btn:hover {
+    background-color: #b8a9a9;
+    color: #000; /* Cambia el color del texto al pasar el mouse */
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-group-text {
+    background-color: #dae0e5;
+    border: none;
+    color: #333;
+}
+
+input:focus, select:focus {
+    border-color: #b8a9a9;
+    box-shadow: 0 0 5px rgba(184, 169, 169, 0.5);
+}
+
+.btn-primary {
+    background-color: #54B4D3;
+    border-color: #54B4D3;
+}
+
+.btn-primary:hover {
+    background-color: #429bb2;
+    border-color: #429bb2;
+}
+
+.btn-secondary {
+    background-color: #d0c8c8;
+    border-color: #d0c8c8;
+}
+
+.btn-secondary:hover {
+    background-color: #b8a9a9;
+    border-color: #b8a9a9;
+}

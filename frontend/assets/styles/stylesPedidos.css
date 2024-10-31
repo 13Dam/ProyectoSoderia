@@ -1,0 +1,18 @@
+body{
+    background-color: #e6dfdf;
+}
+/* Estilo para los botones de navegación */
+.nav-btn {
+    font-weight: bold;
+    background-color: #d0c8c8;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Cambios en el hover */
+.nav-btn:hover {
+    background-color: #b8a9a9; 
+    color: #000; /* Cambia el color del texto al pasar el mouse */
+}

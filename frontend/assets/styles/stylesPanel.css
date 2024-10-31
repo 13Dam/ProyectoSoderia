@@ -1,0 +1,59 @@
+body{
+    background-color: #e6dfdf;
+}
+#logo{
+    border-radius: 55%;
+    margin-left: 18px;
+    margin-right: 13px;
+    width: 55px;
+}
+.navbar {
+    height: 68px;
+}
+.navbar-brand {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+.btn {
+    background-color: #d0c8c8;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #b8a9a9;
+    color: #000;
+}
+
+.btn-link {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.card-custom {
+    background-color: #ffffff;
+    border: none;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-custom:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #343a40;
+}

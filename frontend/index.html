@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio web sodería</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./assets/styles/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!--Barra de navegación-->
+    <nav class="navbar fixed-top" style="background-color: rgb(165, 165, 165);">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#logo">
+          <img src="assets/Imagenes/120193534_177596983839987_569851044654798686_n.jpg" alt="logo"  id="logo" class="d-inline-block align-text-center">
+                Servicio de bebidas
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="background-color: #a5a5a5;">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Explorar</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" href="#inicio"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#vehiculo"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-journals" viewBox="0 0 16 16">
+                    <path d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2"/>
+                    <path d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0"/>
+                  </svg>Descripción</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#producto"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg>Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ubicacion"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg>Ubicación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                </svg>Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search" action="./src/pages/login.html">
+              <button class="btn btn-outline-dark mt-2" type="submit">Ingresar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  <!--Masthead-->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          <h1 class="fw-light"></h1>
+          <p class="lead"></p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Image Showcases-->
+<section class="showcase">
+  <div class="container-fluid p-0">
+      <div class="row g-0">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img">
+            <img src="assets/Imagenes/54446617_823307358006520_3039449268324167735_n.jpg" width="674px" alt="Auto">
+          </div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+              <h2>Breve descripción</h2>
+              <p class="lead mb-0">En Sodería “Los Patitos”, ofrecemos servicio de bebidas; soda, agua y alcohol. Realizamos ventas de bebidas y distribuciones de sodas. Además, tenemos precios especiales para eventos, descuentos por cantidad, promociones y regalos empresariales. </p>
+          </div>
+      </div>
+      <div class="row g-0">
+          <div class="col-lg-6 text-white showcase-img">
+            <img src="assets/Imagenes/SoderiaLosPatitos.png" width="674px" alt="Auto">
+          </div>
+          <div class="col-lg-6 my-auto showcase-text">
+              <h2>Sobre nosotros</h2>
+              <p class="lead mb-0">Horarios de atención: Lunes a Viernes de 08:00hs a 12:00hs y de 16:30hs a 
+                20:30hs, y Sábados de 08:30hs a 12:30hs y de 17:00hs a 20:00hs.</p>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Productos-->
+<section class="features-icons text-center">
+  <div class="container">
+      <div class="row">
+        <h3>Nuestras alternativas de soda</h3>
+          <div class="col-lg-4">
+              <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                  <div class="features-icons-icon d-flex"><i class="bi bi-droplet-fill m-auto text-primary"></i></div>
+                  <h3>Soda retornable</h3>
+                  <p class="lead mb-0">Sifón de 1,5 litros</p>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                  <div class="features-icons-icon d-flex"><i class="bi-droplet-half m-auto text-primary"></i></div>
+                  <h3>Soda descartable</h3>
+                  <p class="lead mb-0">Envases de: 500 ml, 1,5 y 2 litros.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!--Ubicacion-->
+<section class="location" id="ubicacion">
+  <div class="container px-4 px-lg-5">
+      <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+          <div class="col-xl-8 col-lg-7">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d845.7175060190293!2d-62.9189452!3d-32.0186343!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cc837fa14aa311%3A0x921f662dd79205f3!2sBuenos%20Aires%20100%2C%20Pozo%20del%20Molle%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1717628020237!5m2!1ses-419!2sar" class="w-100" height="400" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="col-xl-4 col-lg-5">
+              <div class="featured-text text-center text-lg-left">
+                  <i class="bi-geo-alt m-auto text-primary"></i>
+                  <h4>Ubicación</h4>
+                  <p class="text-black-50 mb-0">9 de Julio Esq. Buenos Aires, Pozo del Molle.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!--Contacto-->
+<section class="contacto">
+  <div class="container-fluid px-6 py-5">
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
+          <div class="card-body p-0">
+            <div class="row g-0">
+              <div class="col-sm-6 d-none d-sm-block bg-image"></div>
+              <div class="col-sm-6 p-4">
+                <div class="text-center">
+                  <div class="h3 fw-light">Formulario de Contacto</div>
+                  <p class="mb-4 text-muted">Complete con sus datos</p>
+                </div>
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+  
+                  <!-- Nombre -->
+                  <div class="form-floating mb-3">
+                    <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                    <label for="name">Nombre</label>
+                    <div class="invalid-feedback" data-sb-feedback="name:required">El nombre es requerido.</div>
+                  </div>
+  
+                  <!-- Email -->
+                  <div class="form-floating mb-3">
+                    <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+                    <label for="emailAddress">Dirección de email</label>
+                    <div class="invalid-feedback" data-sb-feedback="emailAddress:required">La dirección de email es requerida.</div>
+                    <div class="invalid-feedback" data-sb-feedback="emailAddress:email">La dirección de email no es válida.</div>
+                  </div>
+  
+                  <!-- Mensaje -->
+                  <div class="form-floating mb-3">
+                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                    <label for="message">Mensaje</label>
+                    <div class="invalid-feedback" data-sb-feedback="message:required">El mensaje es requerido.</div>
+                  </div>
+  
+                  <!-- El mensaje ha sido enviado -->
+                  <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center mb-3">
+                      <div class="fw-bolder">Tu mensaje ha sido enviado.</div>
+                    </div>
+                  </div>
+  
+                  <!-- Error en mensaje -->
+                  <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error al enviar el mensaje.</div>
+                  </div>
+  
+                  <!-- Botón enviar -->
+                  <div class="d-grid">
+                    <button class="btn btn-secondary btn-lg" id="submitButton" type="submit">Enviar</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- Sobre mi-->
+<section class="aboutme text-center">
+  <div class="container">
+      <h2 class="mb-5">Sobre el programador...</h2>
+      <div class="row">
+          <div class="col-lg-12">
+              <div class="aboutme-item mx-auto mb-5 mb-lg-0">
+                  <img class="img-fluid rounded-circle mb-3" src="assets/Imagenes/SwiftLogic.png" alt="LogoSoftware" />
+                  <h5>SwiftLogic - Software</h5>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+  <!-- Pie de página-->
+<footer class="d-flex justify-content-between align-items-center py-2 border-top border-dark" style="background-color:#909090">
+  <!-- Logo a la izquierda -->
+  <div class="col-md-4 d-flex justify-content-start">
+    <img src="assets/Imagenes/120193534_177596983839987_569851044654798686_n.jpg" alt="Logo" width="80" id="logo">
+  </div>
+  <!-- Texto "Copyright ©" a la derecha -->
+  <div class="col-md-4 d-flex justify-content-end">
+      <p class="mb-0 me-2">Copyright ©</p>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
